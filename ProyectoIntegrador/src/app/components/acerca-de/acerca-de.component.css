@@ -5,6 +5,28 @@ div{
     background-color: rgb(90, 127, 250);
     text-align: center;
 }
+@media(min-width: 576px){
+    #fotomia{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 1050px;
+    }
+}
+
+@media(max-width: 575px){
+    #fotomia{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 35%;
+        top: 1050px;
+    }
+}
+
 #nombre{
     font-weight: bold;
     margin-top: 30%;
